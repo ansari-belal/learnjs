@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript tutorial | Introduction to javascript</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header id="header">
+      <h1>Learn<span class="logoJS">JS</span></h1>
+      <div class="toggle-menu">
+       <div class="toggle_bars">
+         <span></span>
+         <span></span>
+         <span></span>
+       </div>
+      </div>
+    </header>
+    <div class="nav_wrapper"></div>
+    <nav class="sidebar-menu">
+      <ul>
+        <li><a class="title" href="#">Introduction to javascript</a>
+        <ul class="subtitle">
+          <li>What Is Javascript?</li>
+          <li>History Of Javascript</li>
+          <li>Features of JavaScript</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Data Types</a>
+        <ul class="subtitle">
+          <li>Numbers</li>
+          <li>Strings</li>
+          <li>Booleans</li>
+          <li>Undefined</li>
+          <li>Null</li>
+          <li>Objects</li>
+          <li>Arrays</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Variables</a>
+        <ul class="subtitle">
+          <li>Declaration of variables</li>
+          <li>Assignment of variables</li>
+          <li>Scope of variables</li>
+          <li>Hoisting of variables</li>
+          <li>Global and local variables</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Operators</a>
+        <ul class="subtitle">
+          <li>Arithmetic operators</li>
+          <li>Comparison operators</li>
+          <li>Logical operators</li>
+          <li>Assignment operators</li>
+          <li>Conditional (ternary) operator</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Control Structures</a>
+        <ul class="subtitle">
+          <li>if statement</li>
+          <li>if-else statement</li>
+          <li>switch statement</li>
+          <li>while loop</li>
+          <li>do-while loop</li>
+          <li>for loop</li>
+          <li>break and continue statements</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Functions</a>
+        <ul class="subtitle">
+          <li>Declaration of functions</li>
+          <li>Calling functions</li>
+          <li>Arguments and parameters</li>
+          <li>Return statement</li>
+          <li>Anonymous functions</li>
+          <li>Arrow functions</li>
+          <li>Higher-order functions</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Objects</a>
+        <ul class="subtitle">
+          <li>Creating objects</li>
+          <li>Accessing object properties</li>
+          <li>Adding and deleting properties</li>
+          <li>Object methods</li>
+          <li>Constructor functions</li>
+          <li>Prototype and prototype chain</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Arrays</a>
+        <ul class="subtitle">
+          <li>Creating arrays</li>
+          <li>Accessing array elements</li>
+          <li>Adding and deleting properties</li>
+          <li>Array methods</li>
+          <li>Multidimensional arrays</li>
+          <li>Array iteration</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Strings</a>
+        <ul class="subtitle">
+          <li>Creating strings</li>
+          <li>String methods</li>
+          <li>Template literals</li>
+          <li>Regular expressions</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Math Object</a>
+        <ul class="subtitle">
+          <li>Properties of the Math object</li>
+          <li>Methods of the Math object</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Date Object</a>
+        <ul class="subtitle">
+          <li>Creating Date objects</li>
+          <li>Getting and setting Date values</li>
+          <li>Date methods</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Conditional Statements</a>
+        <ul class="subtitle">
+          <li>if statement</li>
+          <li>if-else statement</li>
+          <li>switch statement</li>
+          <li>ternary operator</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Loops</a>
+        <ul class="subtitle">
+          <li>for loop</li>
+          <li>while loop</li>
+          <li>do-while loop</li>
+          <li>break & continue statements</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Regular Expressions</a>
+        <ul class="subtitle">
+          <li>Creating regular expressions</li>
+          <li>Regular expression methods</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Error Handling</a>
+        <ul class="subtitle">
+          <li>try-catch statement</li>
+          <li>throw statement</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Document Object Model (DOM)</a>
+        <ul class="subtitle">
+          <li>Introduction to the DOM</li>
+          <li>DOM elements</li>
+          <li>Accessing and manipulating DOM elements</li>
+          <li>Event handling</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Browser Object Model (BOM)</a>
+        <ul class="subtitle">
+          <li>Introduction to the BOM</li>
+          <li>Window object</li>
+          <li>Location object</li>
+          <li>History object</li>
+          <li>Navigator object</li>
+          <li>Screen object</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Events</a>
+        <ul class="subtitle">
+          <li>Introduction to events</li>
+          <li>Event listeners</li>
+          <li>Event handlers</li>
+          <li>Event propagation</li>
+          <li>Event delegation</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Forms</a>
+        <ul class="subtitle">
+          <li>Creating forms</li>
+          <li>Form elements</li>
+          <li>Form validation</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Cookies and Local Storage</a>
+        <ul class="subtitle">
+          <li>Cookies</li>
+          <li>Local storage</li>
+          <li>Session storage</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">AJAX</a>
+        <ul class="subtitle">
+          <li>Introduction to AJAX</li>
+          <li>XMLHttpRequest object</li>
+          <li>Fetch API</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">JSON</a>
+        <ul class="subtitle">
+          <li>Introduction to JSON</li>
+          <li>JSON syntax</li>
+          <li>Parsing and stringifying JSON</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Promises</a>
+        <ul class="subtitle">
+          <li>Introduction to promises</li>
+          <li>Creating and consuming promises</li>
+          <li>Promise chaining</li>
+          <li>Error handling with promises</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Async/Await</a>
+        <ul class="subtitle">
+          <li>Introduction to async/await</li>
+          <li>Writing asynchronous code with async/await</li>
+          <li>Error handling with async/await</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Modules</a>
+        <ul class="subtitle">
+          <li>Introduction to modules</li>
+          <li>Importing and exporting modules</li>
+          <li>Default exports</li>
+          <li>Namespace imports</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Template Literals</a>
+        <ul class="subtitle">
+          <li>Introduction to template literals</li>
+          <li>Syntax of template literals</li>
+          <li>Tagged template literals</li>
+          <li>Template literals in practice</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Destructuring</a>
+        <ul class="subtitle">
+          <li>Introduction to destructuring</li>
+          <li>Destructuring objects</li>
+          <li>Destructuring arrays</li>
+          <li>Nested destructuring</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Spread and Rest Operators</a>
+        <ul class="subtitle">
+          <li>Introduction to spread and rest operators</li>
+          <li>Using the spread operator</li>
+          <li>Using the rest operator</li>
+          <li>Differences between the spread and rest operators</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Default Parameters</a>
+        <ul class="subtitle">
+          <li>Introduction to default parameters</li>
+          <li>Default parameter syntax</li>
+          <li>Using default parameters in functions</li>
+          <li>Default parameters in practice</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Classes</a>
+        <ul class="subtitle">
+          <li>Introduction to classes</li>
+          <li>Class syntax</li>
+          <li>Creating class instances</li>
+          <li>Class inheritance</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Modules (ES6)</a>
+        <ul class="subtitle">
+          <li>Introduction to ES6 modules</li>
+          <li>Exporting modules with default and named exports</li>
+          <li>Importing modules</li>
+          <li>Dynamic imports</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Arrow Functions</a>
+        <ul class="subtitle">
+          <li>Introduction to arrow functions</li>
+          <li>Arrow function syntax</li>
+          <li>Using arrow functions with arrays and objects</li>
+          <li>Differences between arrow functions and regular functions</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Object Oriented Programming</a>
+        <ul class="subtitle">
+          <li>Introduction to Object Oriented Programming (OOP)</li>
+          <li>Principles of OOP</li>
+          <li>Encapsulation</li>
+          <li>Inheritance</li>
+          <li>Polymorphism</li>
+        </ul>
+        </li>
+        <li><a class="title" href="#">Prototypal Inheritance</a>
+        <ul class="subtitle">
+          <li>Introduction to prototypal inheritance</li>
+          <li>Prototypal inheritance syntax</li>
+          <li>Using prototypes to add methods and properties to objects</li>
+          <li>Differences between prototypal inheritance and classical inheritance</li>
+          <li>Differences between prototypal inheritance and classical inheritance</li>
+        </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="add">
+      <span class="add_badge">ad</span>
+      <img src="add.jpg" alt="add_image" />
+    </div>
+    <h1 class="heading">Introduction to javascript</h1>
+    <main>
+      <h2 class="subheading">What is javascript</h2>
+      <p>
+         JavaScript is a programming language that is widely used in web 
+         development to add interactivity, functionality, and dynamic 
+         behavior to web pages. It is a client-side scripting 
+         language, meaning it runs on the user's web browser rather than on
+         the web server. JavaScript was first 
+         introduced in 1995 by Brendan Eich at Netscape
+         Communications, and it has since become one of the
+         most popular programming languages in the world. <br><br>
+        
+         JavaScript is often used alongside HTML and CSS 
+         to create interactive web pages that respond to
+         user actions, such as clicking a button or entering data 
+         into a form. It can be used to create animations, 
+         to modify the appearance of web pages dynamically, 
+         to validate user input, and to retrieve and display data from web servers. <br><br>
+        
+         One of the unique features of JavaScript is its ability 
+         to manipulate the Document Object Model (DOM), 
+         which is a representation of a web page in the browser's memory. 
+         With JavaScript, developers can modify the DOM to add or remove elements, 
+         change their properties, and respond to user events. <br><br>
+        
+         JavaScript is also an object-oriented language, 
+         which means it uses objects to represent data and 
+         functionality. Objects are collections of properties 
+         and methods, and they can be created and manipulated in JavaScript code. <br><br>
+        
+         JavaScript is supported by all modern web browsers, 
+         including Google Chrome, Mozilla Firefox, Microsoft Edge, 
+         and Apple Safari. It is also widely used on the 
+         server-side, thanks to the popularity of Node.js, 
+         a server-side JavaScript platform. <br><br>
+        
+         In summary, JavaScript is a versatile programming 
+         language that is essential for web development. 
+         It allows developers to create interactive and dynamic 
+         web pages that enhance the user experience. With its 
+         widespread adoption and constant evolution, JavaScript
+         is likely to remain a crucial tool in web development 
+         for years to come.
+      </p>
+      <h2 class="subheading" id="destructuring">History of javascript</h2>
+      <p>
+        JavaScript is a high-level, dynamic, and interpreted programming language that was created in 1995 by Brendan Eich while he was working at Netscape Communications Corporation. At the time, Netscape was developing a new web browser, and Eich was tasked with developing a scripting language that could be used to make web pages more dynamic and interactive. <br><br>
+        
+        Initially, JavaScript was called Mocha, then changed to LiveScript, before settling on its current name. JavaScript was designed to be a lightweight language that could be embedded in HTML pages and executed on the client-side, meaning that it could be used to create interactive user interfaces that responded to user actions without the need to reload the entire page. <br><br>
+        
+        In the early days of JavaScript, it was primarily used for basic validation of user input and simple animations. However, as web applications became more complex, JavaScript evolved to become a full-fledged programming language that could be used for everything from server-side programming to mobile app development. <br><br>
+        
+        One of the key factors in the growth of JavaScript was the release of the jQuery library in 2006. jQuery made it much easier to write JavaScript code that worked across different web browsers, and it quickly became one of the most popular JavaScript libraries in use. <br><br>
+        
+        In 2009, Ryan Dahl released Node.js, a JavaScript runtime that allowed developers to use JavaScript on the server-side. This opened up new possibilities for web application development, as developers could now write both the front-end and back-end of an application in the same language. <br><br>
+        
+        In recent years, JavaScript has continued to evolve, with new features and frameworks being added regularly. Some of the most popular JavaScript frameworks include React, Angular, and Vue.js, which are used to build complex single-page applications. <br><br>
+        
+        Today, JavaScript is one of the most widely used programming languages in the world, and it is an essential tool for web developers. Its versatility and ubiquity make it an indispensable part of the modern web development ecosystem, and it is likely to remain a key technology for years to come. <br><br>
+        
+        The language was designed to be used for 
+        scripting web pages and client-side development. 
+        At the time, the dominant browser was Netscape 
+        Navigator, and the company wanted to create a language 
+        that could be used to add interactive features to 
+        web pages. <br><br>
+
+        In 1996, Microsoft introduced their own 
+        implementation of JavaScript called JScript. 
+        This led to a period of competition and innovation 
+        between the two companies, with each one adding new 
+        features and capabilities to their respective 
+        versions of the language. <br><br>
+
+        In 1997, JavaScript was standardized by the European 
+        Computer Manufacturers Association (ECMA) and became 
+        known as ECMAScript. The first version of ECMAScript, 
+        known as ES1, was released in June of that year. <br><br>
+
+        Over the years, new versions of ECMAScript 
+        have been released, each one adding new 
+        features and improving the language. 
+        ES2 was released in 1998, followed by ES3 in 1999. 
+        ES4 was never released due to disagreements among 
+        the members of the standards committee. <br><br>
+
+        ES5 was released in 2009 and included many new 
+        features such as strict mode, JSON support, 
+        and new methods for working with arrays and strings. 
+        ES6, also known as ECMAScript 2015, 
+        was a major update to the language 
+        and introduced many new features such as 
+        arrow functions, classes, modules, 
+        and the let and const keywords. <br><br>
+
+        Since then, new versions of ECMAScript have been released on a yearly basis. ES7, ES8, and ES9 were released in 2016, 2017, and 2018 respectively. ES10, released in 2019, included features such as Array.flat(), Array.flatMap(), and optional chaining. <br><br>
+
+        Today, JavaScript is one of the most popular programming languages in the world and is used for a wide variety of applications, including web development, server-side programming, and desktop and mobile applications. Its continued development and evolution make it an exciting language to work with and a critical tool for modern software developmet. <br><br>
+
+        JavaScript has come a long way since its early days as a language for adding simple interactivity to web pages. Today, it is a full-fledged programming language that is used for everything from building complex web applications to creating mobile and desktop apps. <br><br>
+
+        One of the biggest advances in JavaScript in recent years has been the advent of frameworks and libraries that make it easier to develop complex applications. Frameworks like React, Angular, and Vue.js provide developers with powerful tools for building modern, interactive web applications. <br><br>
+
+        Another major advance in JavaScript has been the growing popularity of server-side JavaScript. With the advent of technologies like Node.js, developers can now use JavaScript for both client-side and server-side programming, making it possible to create full-stack applications using a single language. <br><br>
+
+        In addition to these advances, JavaScript has continued to evolve as a language. ES6 introduced many new features that make it easier to write and maintain code, such as arrow functions, destructuring, and template literals. More recent versions of ECMAScript have added features like async/await, dynamic import, and BigInt, further expanding the capabilities of the language. <br><br>
+
+        JavaScript has also become a popular choice for developing mobile apps, thanks in part to frameworks like React Native and Ionic. These frameworks allow developers to use their existing JavaScript skills to create mobile apps that can run on both iOS and Android. <br><br>
+
+        In summary, the history of JavaScript 
+        is a story of innovation and evolution. 
+        From its humble beginnings as a simple scripting 
+        language for the web, it has grown into a powerful 
+        and versatile language that is used for a wide range of applications. 
+        With its continued development and evolution, JavaScript is likely to 
+        remain a critical tool for software development for many years to come.
+      </p>
+      <h2 class="subheading">Features of JavaScript</h2>
+       <ol>
+          <li>Object-oriented: JavaScript is an object-oriented language, meaning it allows developers to create objects and define their properties and methods.</li><br>
+          <li>Interactivity: JavaScript enables developers to create interactive web pages that respond to user actions, such as clicking buttons or entering data into forms.</li><br>
+          <li>Client-side scripting: JavaScript runs on the client-side, meaning it is executed by the user's web browser rather than on the web server. This allows for faster response times and more dynamic user experiences.</li><br>
+          <li>Cross-platform compatibility: JavaScript code can run on a wide range of devices and platforms, including desktop computers, smartphones, and tablets.</li><br>
+          <li>Asynchronous programming: JavaScript supports asynchronous programming, which allows developers to write code that runs in the background without blocking the main thread of execution.</li><br>
+          <li>Functional programming: JavaScript also supports functional programming, which is a programming paradigm that emphasizes the use of functions to solve problems.</li><br>
+          <li>Easy to learn: JavaScript is relatively easy to learn and is widely used, making it a great language for beginners to start with.</li> <br>
+          <li>Large developer community: JavaScript has a large and active developer community, which means there is a wealth of resources available for learning and problem-solving.</li> <br>
+          <li>Dynamic typing: JavaScript is a dynamically typed language, which means that variables can be assigned values of any data type at runtime. This makes it easier to write code quickly and reduces the need for explicit type declarations.</li> <br>
+          <li>Event-driven programming: JavaScript is event-driven, meaning it responds to events triggered by the user or the browser. Developers can use event listeners and handlers to create complex interactions and animations on a web page.</li><br>
+          <li>Modular programming: JavaScript supports modular programming, which involves breaking down code into smaller, reusable modules. This makes code easier to manage and maintain over time.</li><br>
+          <li>Built-in data structures: JavaScript comes with built-in data structures such as arrays, objects, and maps, which can be used to organize and manipulate data efficiently.</li><br>
+          <li>Compatibility with other languages: JavaScript can be used in conjunction with other languages, such as HTML and CSS, to create fully functional web pages.</li><br>
+          <li>Open-source libraries and frameworks: JavaScript has a wide range of open-source libraries and frameworks, such as jQuery, React, and Node.js, that can be used to simplify and streamline the development process.</li><br>
+          <li>Debugging tools: JavaScript comes with built-in debugging tools, such as the console.log() function and the browser's developer tools, that can be used to troubleshoot code errors and issues.</li><br>
+          <li>Prototypal inheritance: JavaScript uses prototypal inheritance to allow objects to inherit properties and methods from other objects. This allows for greater flexibility and code reuse.</li><br>
+          <li>High-level language: JavaScript is a high-level language, which means that it provides developers with abstractions and structures that make it easier to write code at a higher level of abstraction.</li><br>
+          <li>Garbage collection: JavaScript uses automatic garbage collection to free up memory that is no longer being used by the program. This helps to prevent memory leaks and improve overall program performance.</li><br>
+          <li>Multi-paradigm: JavaScript is a multi-paradigm language, meaning that it can be used to write code in a variety of different programming paradigms, including procedural, object-oriented, and functional.</li><br>
+          <li>Regular expressions: JavaScript has built-in support for regular expressions, which are powerful tools for matching and manipulating text.</li><br>
+          <li>Dynamic web page creation: JavaScript can be used to dynamically create and modify web pages at runtime, which allows for greater interactivity and user engagement.</li><br>
+          <li>Support for modern web technologies: JavaScript has evolved over time to support modern web technologies, such as HTML5 and CSS3, which allows for more sophisticated and immersive web experiences.</li><br>
+          <li>Server-side programming: JavaScript can also be used for server-side programming, thanks to platforms like Node.js, which allows for the creation of fast and scalable web applications.</li><br>
+          <li>First-class functions: JavaScript treats functions as first-class citizens, which means that they can be assigned to variables, passed as arguments to other functions, and returned as values from functions.</li><br>
+          <li>Closures: JavaScript supports closures, which are functions that can access variables and other data from the outer function in which they were defined. Closures are a powerful tool for creating modular and reusable code.</li><br>
+          <li>JSON: JavaScript Object Notation (JSON) is a lightweight data interchange format that is widely used for data serialization and communication between different systems. JSON is based on a subset of JavaScript syntax, making it easy to use with JavaScript.</li><br>
+          <li>Browser compatibility: JavaScript is supported by all major web browsers, making it a ubiquitous language for creating web applications.</li><br>
+          <li>Expressive syntax: JavaScript has an expressive syntax that allows developers to write concise and readable code.</li><br>
+          <li>Easy integration with web APIs: JavaScript can be used to access and manipulate web APIs, which are interfaces that allow web applications to interact with other software systems and services.</li><br>
+          <li>Security: JavaScript has built-in security features that help to protect web applications from common security threats, such as cross-site scripting (XSS) and cross-site request forgery (CSRF).</li><br>
+       </ol>
+       <p>
+         Overall, JavaScript is a powerful and versatile programming language that offers a wide range of features and capabilities for creating dynamic and interactive web applications.
+       </p>
+    </main>
+     <div class="feedback">
+        <p>Is this content helpfull for you ?</p>
+        <div class="feed_btns">
+           <button>YES</button>
+            <span>or</span>
+           <button>NO</button>
+        </div>
+     </div>
+     <div class="related_contents">
+       <h2>Related Contents</h2>
+       <ul>
+         <li><a href="#destructuring">array destructuring</a></li>
+         <li><a href="#">object destructuring</a></li>
+         <li><a href="#">Differences between prototypal inheritance and classical inheritance</a></li>
+         <li><a href="#">Conditional (ternary) operator</a></li>
+         <li><a href="#">Prototype and prototype chain</a></li>
+         <li><a href="#">Getting and setting Date values</a></li>
+         <li><a href="#">Exporting modules with default and named exports</a></li>
+       </ul>
+     </div>
+     <div class="related_contents">
+       <h2>Comments</h2>
+       <div class="comment">
+         <div class="user_info">
+           <span class="picture">🙇</span>
+           <span class="user_name">ansari belal ahmad</span>
+         </div>
+         <p class="description">
+           awsome content i appreciate 
+         </p>
+        <span class="comm_time">Sat March 4, 2023 10:43 AM</span>
+       </div>
+       <div class="comment">
+         <div class="user_info">
+           <span class="picture">🦸</span>
+           <span class="user_name">gufran ahmad</span>
+         </div>
+         <p class="description">
+           thanks for intro of javascript
+         </p>
+        <span class="comm_time">Sat March 4, 2023 10:43 AM</span>
+       </div>
+       <div class="comment">
+         <div class="user_info">
+           <span class="picture">👰</span>
+           <span class="user_name">Noorafsan bano</span>
+         </div>
+         <p class="description">
+           thank bro
+         </p>
+        <span class="comm_time">Sat March 4, 2023 10:43 AM</span>
+       </div>
+       <div class="comment">
+         <div class="user_info">
+           <span class="picture">🧕</span>
+           <span class="user_name">Noorafsan quraishi</span>
+         </div>
+         <p class="description">
+           you are a awsome content writer i want meet you bro where are you from i appreciate to you to read this content thank you bro
+         </p>
+         <span class="comm_time">Sat March 4, 2023 10:43 AM</span>
+       </div>
+       <div class="comment">
+         <div class="user_info">
+           <span class="picture">👮</span>
+           <span class="user_name">Noorulain ansari</span>
+         </div>
+         <p class="description">
+           I appreciate to read this content
+         </p>
+         <span class="comm_time">Sat March 4, 2023 10:43 AM</span>
+       </div>
+       <div class="comment">
+         <div class="user_info">
+           <span class="picture">👷</span>
+           <span class="user_name">rafe ansari</span>
+         </div>
+         <p class="description">
+           ok bro for creating this usefull content
+         </p>
+        <span class="comm_time">Sat March 4, 2023 10:43 AM</span>
+       </div>
+       <div class="comment">
+         <div class="user_info">
+           <span class="picture">👲</span>
+           <span class="user_name">ansari monaf</span>
+         </div>
+         <p class="description">
+           thank you owner of this website
+         </p>
+        <span class="comm_time">Sat March 4, 2023 10:43 AM</span>
+       </div>
+     </div>
+    <div class="links">
+      <a href="#">about us</a>
+      <a href="#">privacy policy</a>
+      <a href="#">contact us</a>
+    </div>
+    <footer>
+        copyright © 2023 all rights reserved 
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
